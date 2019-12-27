@@ -40,3 +40,9 @@ git clone https://github.com/gpakosz/.tmux.git ~/.tmux
 ln -s -f .tmux/.tmux.conf ~/.tmux.conf
 ln -s -f "$DOTFILES/configs/.tmux.conf.local" ~/.tmux.conf.local
 ls -l ~/.tmux.conf*
+
+########################
+  next "Install elm"
+########################
+brew install elm
+brew upgrade elm
